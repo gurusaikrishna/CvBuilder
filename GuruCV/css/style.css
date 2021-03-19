@@ -105,9 +105,10 @@ nav .inner .logo {
 
  section.profile.left h2{
      color: (var--fade);
-     font: size 24px; 
+     font-size: 18px; 
+     line-height: 22px;
      font-weight: 600;
-     margin-bottom:1rem ;
+     margin-bottom: 1.6rem ;
 
  }
 
@@ -215,7 +216,7 @@ nav .inner .logo {
   font-size: 16px;
   font-weight: 500;
   color:var(--pure);
-  margin: bottom 3rem;
+  margin-bottom: 3rem;
   text-shadow: 0 0 1px rgba(40, 54, 95, 0.1);
   position: relative;
 
@@ -250,7 +251,7 @@ nav .inner .logo {
  section.about .content h2 {
      color: var(--info);
      font-size: 18px;
-     line-height: 22px;
+     line-height: 20px;
      font-weight: 700; 
      margin-bottom: 1.6rem;
 
