@@ -11,12 +11,26 @@
     <link rel="shortcut icon" href="./images/favicon.ico">
 
     <link rel="stylesheet" href="../GURUCV/css/style.css">
+   <!-- <script src="html2pdf.bundle.min.js"></script> -->
 
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.1/html2pdf.bundle.min.js"></script>
     
     <title>GURUCV</title>
 </head>
 
 <body>
+
+
+
+    
+
+
+
+
+
+
+
+
     <nav>
         <div class="container inner">
             <div class="logo">
@@ -24,16 +38,16 @@
                 MAKEurCV
             </div>
             <div>
-                <button>
-                    <i class="uil uil-print"></i>
-                     PRINT
-                </button> 
             </div>
         </div>
 
     </nav>
 
     <main  class="container">
+
+
+
+        <div id=Resume>
       <section class="profile" id="profile__ripple">
           <div class="left">
              <div class="avatar_block">
@@ -98,7 +112,9 @@
              <h2> "I'm GuruSaikrishna</h2>
 
              <p> To pursue a professional career in an organization where I can constantly grow with the company , acquire specific skills at each level and give my best efforts to work for overall stability and prosperity of the company.</p>
-          <button>Download Cv</button>
+        
+        
+             <button  onclick="generatePDF()">Download Cv</button>
          </div>
          <div class="right">
              <p>
@@ -211,13 +227,20 @@
             </div>
         </div>
                </div>
+
    
  </section>
+
+</div>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./plugins/headline/headline.js"></script>
     <script src="./plugins/ripples.js"></script>
     <script src="./js/app.js"></script>
+    <button onclick="generatePDF()">Print</button>
+
+
+    
 
 </body>
 
